@@ -68,7 +68,7 @@ outputs:
   pull-request-number:
     description: 'The pull request number'
 runs:
-  using: 'node12'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'git-pull-request'
